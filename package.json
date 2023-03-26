@@ -9,24 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@apollo/client": "^3.7.4",
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@apollo/client": "^3.7.10",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@reduxjs/toolkit": "^1.9.1",
+    "@reduxjs/toolkit": "^1.9.3",
     "classnames": "^2.3.2",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "^13.2.4",
     "graphql": "^16.6.0",
     "next": "^13.2.4",
     "node-sass": "^7.0.3",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-redux": "^8.0.5",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.60.0",
-    "web-vitals": "^2.1.4"
+    "sharp": "^0.32.0"
   },
   "eslintConfig": {
     "extends": [
@@ -47,4 +47,3 @@
     ]
   }
 }
-
