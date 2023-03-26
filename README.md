@@ -29,7 +29,7 @@
 
 ## About The Project
 
-Build a web application that allows users to search and view information about movies using the Open Movie Database (OMDb) API.
+Build a web application that allows users to search and view information about movies using the The Movie Database (tmdb) API.
 
 Technical Requirements:
 
