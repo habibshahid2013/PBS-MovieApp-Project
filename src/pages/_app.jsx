@@ -11,7 +11,7 @@ import { Provider } from 'react-redux';
 import store from '../store/store';
 import './App.css';
 import '../css/sass/index.scss';
-import './index.Module.css'
+import './index.module.css'
 
 const App = () => {
   const [movies, setMovies] = useState([]);
