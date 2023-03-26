@@ -1,0 +1,9 @@
+.rating {
+    @extend .smallInfoFont;
+    padding: 4px 0;
+
+    &-icon {
+        color: gold;
+        margin-right: 5px;
+    }
+}

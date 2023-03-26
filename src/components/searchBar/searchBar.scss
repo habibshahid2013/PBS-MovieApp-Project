@@ -1,0 +1,33 @@
+.searchBarWrapper {
+    @extend .flex-col-centered;
+    margin: 100px;
+}
+
+.searchBar {
+    width: fit-content;
+    position: relative;
+
+    &-input {
+        width: 400px;
+        height: 40px;
+        border-radius: 10px;
+        outline: none;
+        font-size: 16px;
+        border: 2px solid #b8b2b7!important;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    & .searchIcon {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 12px;
+        top: 14px;
+        color: #b8b2b7;
+    }
+
+    &-error {
+        @extend .errorFont;
+        margin-left: 3px;
+    }
+}

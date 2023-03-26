@@ -1,0 +1,59 @@
+.movieCardsList {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+};
+
+.movieCard {
+    width: 300px;
+    height: 400px;
+    background-color: #b8b2b7;
+    border-radius: 10px;
+    margin: 30px;
+
+    &-poster {
+        cursor: pointer;
+        height: 80%;
+        width: 270px;
+        height: 300px;
+        margin-top: 15px;
+
+        &.smallPoster {
+            margin-top: 0;
+            width: 115px;
+            height: 115px;
+            border-radius: 5px;
+        }
+    }
+
+    &-generalInfo {
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        &-details {
+            @extend .smallInfoFont;
+            @extend .flex-row-space-between;
+            align-items: flex-end;
+            align-self: flex-start;
+
+            width: 90%;
+            margin-left: 15px;
+            margin-bottom: 10px;
+
+            & .infoIcon {
+                width: 15px;
+                height: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    & .highlightedPart {
+        background-color: #e8f013;
+        border-radius: 5px;
+        padding: 2px;
+    }
+}

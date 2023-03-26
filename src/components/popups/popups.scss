@@ -1,0 +1,64 @@
+.generalPopup {
+    @extend .flex-row-centered;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+
+    transition: all 400ms ease-in-out;
+
+    &.popupShown {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    &.popupHidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    & .generalPopup-content {
+        position: relative;
+        width: 600px;
+        background: #fff;
+        border-radius: 5px;
+        padding: 30px;
+        text-align: left;
+    }
+
+    & .closeIcon {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        cursor: pointer;
+        transition: all 400ms ease-in-out;
+        font-size: 30px;
+    }
+}
+
+.movieDetailsPopup {
+    & .infoSection {
+        display: flex;
+        align-items: flex-start;
+
+        & .title {
+            @extend .titleFont;
+            font-size: 25px;
+        }
+
+        &-itemsGroup {
+            @extend .flex-row-left;
+            margin: 2px 15px;
+
+            &-item {
+                font-weight: 600;
+                opacity: 0.6;
+                &:not(:first-child) {margin-left: 10px;}
+            }
+        }
+    }
+    & .detailItem {&-title {font-weight: 700; opacity: 0.6;}}
+}
