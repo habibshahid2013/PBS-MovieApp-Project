@@ -1,11 +1,7 @@
-const withStandalone = require('@vercel/next-standalone')
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // other Next.js config settings
+  outputDirectory: '.next'
 }
 
-module.exports = withStandalone(nextConfig, {
-  standaloneFile: true,
-  standaloneDirectory: true,
-})
+module.exports = nextConfig
