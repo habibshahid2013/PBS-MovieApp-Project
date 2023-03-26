@@ -1,17 +1,17 @@
-import '@/styles/globals.css'
+import '../styles/globals.css'
 import { useState } from 'react';
-import SearchBar from '@/components/searchBar/searchBar';
-import MovieCardsList from '@/components/movieCard/movieCardsList';
-import GeneralPopup from '@/components/popups/generalPopup';
+import SearchBar from '../components/searchBar/searchBar';
+import MovieCardsList from '../components/movieCard/movieCardsList';
+import GeneralPopup from '../components/popups/generalPopup';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFaceSadTear } from '@fortawesome/free-solid-svg-icons';
-import Loader from '@/components/loader/loader';
-import MessageWithIcon from '@/components/messageWithIcon/messageWithIcon';
+import Loader from '../components/loader/loader';
+import MessageWithIcon from '../components/messageWithIcon/messageWithIcon';
 import { Provider } from 'react-redux';
-import store from '@/store/store';
+import store from '../store/store';
 import './App.css';
-import '@/css/sass/index.scss';
-import '/src/pages/index.module.css'
+import '../css/sass/index.scss';
+import './index.Module.css'
 
 const App = () => {
   const [movies, setMovies] = useState([]);

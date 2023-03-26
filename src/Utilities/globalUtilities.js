@@ -1,6 +1,6 @@
 const globalUtilities = {
     getNoAvailablePosterUrl() {
-        return require('../assets/images/noAvailablePoster.png')
+        return '../assets/images/noAvailablePoster.png'
     }
 };
 
