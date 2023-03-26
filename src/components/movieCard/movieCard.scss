@@ -7,7 +7,7 @@
 .movieCard {
     width: 300px;
     height: 400px;
-    background-color: #b8b2b7;
+    background-color: hsla(165, 62%, 40%, 0.902);
     border-radius: 10px;
     margin: 30px;
     
@@ -54,7 +54,7 @@
     }
 
     & .highlightedPart {
-        background-color: #e8f013;
+        background-color: hsla(62, 88%, 51%, 0.489);
         border-radius: 5px;
         padding: 2px;
     }

@@ -54,7 +54,7 @@ const SearchBar = ({ setMovies, setTypedValue, setLoader }) => {
                     type='text'
                     className='searchBar-input'
                     onChange={searchMovie}
-                    placeholder='Search a movie'
+                    placeholder='What movie do you want to find?'
                 />
                 <FontAwesomeIcon icon={faMagnifyingGlass} className='searchIcon'/>
                 {
