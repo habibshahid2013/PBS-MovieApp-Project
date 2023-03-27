@@ -4,9 +4,7 @@ const nextConfig = {
   distDir: 'build',
   exportPathMap: async function (defaultPathMap) {
     return {
-      '/': { page: '/' },
-      '/about': { page: '/about' },
-      // add other pages here
+   
     }
   }
 }
