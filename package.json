@@ -2,12 +2,12 @@
   "name": "movie-final-appy-app",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "NEXT_PRIVATE_STANDALONE=true next build && next export",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "export": "next export"
+},
   "dependencies": {
     "@apollo/client": "^3.7.10",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
