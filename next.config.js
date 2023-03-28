@@ -9,4 +9,4 @@ const nextConfig = {
     path: '',
   },
 }
-module.exports = nextConfig
+module.exports = withCSS(withSass(nextConfig))
