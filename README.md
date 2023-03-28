@@ -11,12 +11,12 @@
     <br/>
     <br/>
   </p>
-  <p align="center">
+</p>
+
  ## Demo Application
-  </p>
-  <p align="center">
-  (https://pbs-movie-app-project-t6p3.vercel.app/)
-  </p>
+
+<p align="center">
+(https://pbs-movie-app-project-t6p3.vercel.app/)
 </p>
 
 ![Contributors](https://img.shields.io/github/contributors/habibshahid2013/PBS-MovieApp-Project?color=dark-green) ![Forks](https://img.shields.io/github/forks/habibshahid2013/PBS-MovieApp-Project?style=social) ![Stargazers](https://img.shields.io/github/stars/habibshahid2013/PBS-MovieApp-Project?style=social) ![Issues](https://img.shields.io/github/issues/habibshahid2013/PBS-MovieApp-Project) 
