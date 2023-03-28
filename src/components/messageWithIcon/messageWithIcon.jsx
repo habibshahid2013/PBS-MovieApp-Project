@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// Create a functional MessageWithIcon component
 const MessageWithIcon = ({ text, icon }) => {
     return(
         <div className='messageFont text-center'>

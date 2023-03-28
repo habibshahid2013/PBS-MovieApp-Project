@@ -54,7 +54,7 @@ const MovieCard = ({ movieInfo, typedValue, setLoader }) => {
         <div className='movieCard'>
             <img
                 className='movieCard-poster'
-                // if there is no poster path for that movie, then show the noImageAvailable picture
+                
                 src={ movieInfo.poster_path ? `${urls.imagesBaseUrl}${movieInfo.poster_path}` : globalUtilities.getNoAvailablePosterUrl()}
                 alt=''
                 onClick={onMovieCardClick}

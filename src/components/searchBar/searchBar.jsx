@@ -11,7 +11,6 @@ const SearchBar = ({ setMovies, setTypedValue, setLoader }) => {
     });
 
     // make the request for retrieving the movies according to the user's typed value
-    // error handling: when user types in more than 40 characters, then the appropriate error will appear and the request will not be made until he deletes some characters
     const searchMovie = async (e) => {
         setLoader(true);
         const typedValue = e.target.value;
