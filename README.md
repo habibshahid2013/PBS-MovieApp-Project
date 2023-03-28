@@ -41,7 +41,7 @@ Build a web application that allows users to search and view information about m
 Technical Requirements:
 
 Use React or Next.js for the frontend and CSS or SASS for styling.
-Use a free hosting service such as Heroku or Zeit for hosting the application.
+Use a free hosting service such as Vercel or AWS Amplify for hosting the application.
 Provide a git repository with your code.
 
 ## Built With
