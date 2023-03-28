@@ -13,6 +13,8 @@
   </p>
   <p align="center">
   [Demo Application]
+  </p>
+  <p align="center">
   (https://pbs-movie-app-project-t6p3.vercel.app/)
   </p>
 </p>
