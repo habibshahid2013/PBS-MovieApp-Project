@@ -15,7 +15,8 @@
 
  ## Demo Application
 
-<p align="center">
+<p align="left">
+Test The Application:
 (https://pbs-movie-app-project-t6p3.vercel.app/)
 </p>
 
