@@ -11,7 +11,7 @@ export default function Home() {
   );
 }
 
-//if (typeof document !== 'undefined') {
-//  const root = ReactDOM.createRoot(document.getElementById('root'));
-//  root.render(<Home />);
-//
+if (typeof document !== 'undefined') {
+  const root = ReactDOM.createRoot(document.getElementById('root'));
+  root.render(<Home />);
+}

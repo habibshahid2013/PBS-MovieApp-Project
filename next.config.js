@@ -4,5 +4,9 @@ const nextConfig = {
   future: {
     webpack5: true,
   },
+  images: {
+    loader: 'imgix',
+    path: '',
+  },
 }
 module.exports = nextConfig
