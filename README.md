@@ -11,8 +11,9 @@
     <br/>
     <br/>
   </p>
-  <p>
-  [Demo Application on Vercel](https://pbs-movie-app-project-t6p3.vercel.app/)
+  <p align="center">
+  [Demo Application]
+  (https://pbs-movie-app-project-t6p3.vercel.app/)
   </p>
 </p>
 
