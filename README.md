@@ -36,7 +36,7 @@ Test The Application:
 
 ## About The Project
 
-Build a web application that allows users to search and view information about movies using the The Movie Database (tmdb) API.
+Build a web application that allows users to search and view information about movies using the The Movie Database (TMDB) API.
 
 Technical Requirements:
 
