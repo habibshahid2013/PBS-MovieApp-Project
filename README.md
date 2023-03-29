@@ -44,10 +44,9 @@ Use React or Next.js for the frontend and CSS or SASS for styling.
 Use a free hosting service such as Vercel or AWS Amplify for hosting the application.
 Provide a git repository with your code.
 
-## Built With
+## Built With & Deployed With
 
 This application is built with the following technologies:
-
 
 * [Next.JS]()
 * [Graphql]()
@@ -59,6 +58,10 @@ This application is built with the following technologies:
 * [Redux](https://redux.js.org/)
 * [FontAwesome](https://fontawesome.com/)
 * [Apollo Client](https://www.apollographql.com/docs/react/)
+
+The Application was deployed with:
+
+* [Vercel](https://vercel.com/)
 
 ## Getting Started
 
