@@ -66,8 +66,8 @@ The Application was deployed with:
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Starting up the application will be simple. After cloning the application and starting it within your repo
+All you need to run the following steps below. 
 
 ### Prerequisites
 
