@@ -19,7 +19,7 @@
 
 <p align="left">
 Test Application:
-(https://pbs-movie-app-project-t6p3.vercel.app/)
+(https://pbs-movie-app.herokuapp.com/)
 </p>
 
 ## Table Of Contents
@@ -61,7 +61,8 @@ This application is built with the following technologies:
 
 The Application was deployed with:
 
-* [Vercel](https://vercel.com/)
+* [Vercel](https://vercel.com/) - (https://pbs-movie-app-project-t6p3.vercel.app/)
+* [Heroku](https://dashboard.heroku.com/apps) - (https://pbs-movie-app.herokuapp.com/)
 
 ## Getting Started
 
