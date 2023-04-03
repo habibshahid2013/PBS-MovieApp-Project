@@ -7,6 +7,8 @@
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
+    color: plum;
+    
 
     transition: all 400ms ease-in-out;
 
@@ -27,6 +29,7 @@
         border-radius: 5px;
         padding: 30px;
         text-align: left;
+        
     }
 
     & .closeIcon {
@@ -43,6 +46,7 @@
     & .infoSection {
         display: flex;
         align-items: flex-start;
+        
 
         & .title {
             @extend .titleFont;
