@@ -19,6 +19,7 @@
 
 <p align="left">
 Test Application:
+Keep in mind it takes about 30-40 seconds for an application on heroku to spin up and be responsive.
 (https://pbs-movie-app.herokuapp.com/)
 </p>
 
